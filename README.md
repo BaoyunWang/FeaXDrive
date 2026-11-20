@@ -75,7 +75,7 @@ hidden-state cache
 ## Installation
 
 ```bash
-git clone https://github.com/Wangby-tongji/FeaXDrive.git
+git clone https://github.com/BaoyunWang/FeaXDrive.git
 cd FeaXDrive
 
 conda env create -f environment.yml
@@ -250,6 +250,7 @@ navsim/planning/script/
 - [`docs/FEAXDRIVE_REPRODUCTION.md`](docs/FEAXDRIVE_REPRODUCTION.md)
 - [`docs/FEAXDRIVE_MODEL_CODE_GUIDE.md`](docs/FEAXDRIVE_MODEL_CODE_GUIDE.md)
 - [`docs/FEAXDRIVE_FAGRPO_CHAIN.md`](docs/FEAXDRIVE_FAGRPO_CHAIN.md)
+- [`docs/REPOSITORY_CLEANUP.md`](docs/REPOSITORY_CLEANUP.md)
 
 ## Citation Links
 

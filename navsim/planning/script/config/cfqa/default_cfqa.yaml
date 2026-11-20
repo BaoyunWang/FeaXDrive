@@ -10,7 +10,7 @@ hydra:
 defaults:
   - default_common
   - default_evaluation
-  - agent: recogdrive_agent
+  - agent: feaxdrive_v4drive_agent
   - _self_
 
 # Required by default_evaluation

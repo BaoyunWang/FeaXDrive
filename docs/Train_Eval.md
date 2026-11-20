@@ -8,7 +8,7 @@ For the current FeaXDrive codebase, use:
 - `docs/FEAXDRIVE_MODEL_CODE_GUIDE.md` for model architecture and code-chain analysis.
 - `docs/FEAXDRIVE_FAGRPO_CHAIN.md` for the isolated FA-GRPO training reward path.
 
-The older ReCogDrive scripts in this repository are preserved only as reference/compatibility code. The verified FeaXDrive reproduction entrypoints are:
+The superseded ReCogDrive training/cache launchers have been removed. The ReCogDrive agent used by the visualization tools is retained. The FeaXDrive reproduction entrypoints are:
 
 ```text
 scripts/repro/slurm/submit_cache_feaxdrive.slurm

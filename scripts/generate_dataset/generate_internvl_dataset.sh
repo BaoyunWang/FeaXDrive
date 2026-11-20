@@ -10,6 +10,6 @@ export OPENSCENE_DATA_ROOT="/path/to/NAVSIM/dataset"
 
 
 python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_generate_dataset.py \
-    agent=recogdrive_agent \
+    agent=feaxdrive_v4drive_agent \
     experiment_name=generate_dataset \
-    train_test_split=$TRAIN_TEST_SPLIT 
+    train_test_split=$TRAIN_TEST_SPLIT

@@ -238,9 +238,7 @@ python -m py_compile \
   navsim/agents/feaxdrive/feaxdrive_agent_entry_v4drive_fagrpo.py \
   navsim/agents/feaxdrive/feaxdrive_diffusion_planner.py \
   navsim/agents/feaxdrive/trajectory_projector.py \
-  navsim/evaluate/pdm_score_fagrpo.py \
   navsim/evaluate/pdm_score_feaxdrive_fagrpo.py \
-  navsim/planning/simulation/planner/pdm_planner/scoring/pdm_scorer_fagrpo.py \
   navsim/planning/simulation/planner/pdm_planner/scoring/feaxdrive_fagrpo_scorer.py \
   navsim/planning/simulation/planner/pdm_planner/scoring/feaxdrive_fagrpo_comfort_metrics.py \
   navsim/agents/feaxdrive/feaxdrive_diffusion_planner_fagrpo.py

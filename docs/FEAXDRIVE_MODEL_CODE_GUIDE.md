@@ -365,7 +365,12 @@ __pycache__/
 *.zip
 ```
 
-Do not aggressively delete `recogdrive/` or compatibility wrappers until an import-graph analysis confirms they are unused by all configs and checkpoints.
+The unused historical ReCogDrive variants and FeaXDrive import shims have been
+removed after checking Python imports, Hydra targets, shell entrypoints and the
+repository's state-dict checkpoint loading. The remaining `recogdrive/` files are
+required by the five `plt_*.py` visualization tools. Keep that dependency closure
+unless those callers are deliberately migrated. See
+[`REPOSITORY_CLEANUP.md`](REPOSITORY_CLEANUP.md) for the cleanup scope and limitations.
 
 ---
 
